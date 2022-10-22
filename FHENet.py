@@ -333,27 +333,22 @@ class Mirror_model(nn.Module):
         x5_depth = self.layer5_t(x4_depth)
 
 
-        # edge = x1_rgb + x1_depth
         edge = self.boundary(x1_rgb, x1_depth)
         edge_conv = self.conv16_1_4(edge)
         edge_160 = self.conv16_160(edge)
 
-        # x2_r_t = x2_rgb + x2_depth
         x2_r_t = self.fusion1(x2_rgb, x2_depth)
         x2_rgb_en = x2_rgb + x2_r_t
         x2_depth_en = x2_depth + x2_r_t
 
-        # x3_r_t = x3_rgb + x3_depth
         x3_r_t = self.fusion2(x3_rgb, x3_depth)
         x3_rgb_en = x3_rgb + x3_r_t
         x3_depth_en = x3_depth + x3_r_t
 
-        # x4_r_t = x4_rgb + x4_depth
         x4_r_t = self.fusion3(x4_rgb, x4_depth)
         x4_rgb_en = x4_rgb + x4_r_t
         x4_depth_en = x4_depth + x4_r_t
 
-        # x5_r_t = x5_rgb + x5_depth
         x5_r_t = self.fusion4(x5_rgb, x5_depth)
         x5_rgb_en = x5_rgb + x5_r_t
         x5_depth_en = x5_depth + x5_r_t
@@ -364,11 +359,9 @@ class Mirror_model(nn.Module):
         cat_5_4_r_480_160 = self.conv_480_160(cat_5_4_r)
         cat_5_4_t = torch.cat((x5_depth_en_up2, x4_depth_en), dim=1)
         cat_5_4_t_480_160 = self.conv_480_160_1(cat_5_4_t)
-        # add_5_4 = cat_5_4_r_480_160 + cat_5_4_t_480_160 + edge_160
         add_5_4 = self.MFI1(cat_5_4_r_480_160, cat_5_4_t_480_160, edge_160)
         add_5_4_conv = self.conv160_16(add_5_4)
         f3 = add_5_4_conv.mul(edge) + edge
-        # f3 = self.boundary2(edge, add_5_4_conv)
 
 
         cat_5_4_r_480_160_up2 = self.up2(cat_5_4_r_480_160)
@@ -379,10 +372,8 @@ class Mirror_model(nn.Module):
         cat_5_4_3_t = torch.cat((cat_5_4_t_480_160_up2, x3_depth_en), dim=1)
         cat_5_4_3_t_196_16 = self.conv_192_16_1(cat_5_4_3_t)
         cat_5_4_3_t_196_16_up4 = self.up4(cat_5_4_3_t_196_16)
-        # add_5_4_3 = cat_5_4_3_r_192_16_up4 + cat_5_4_3_t_196_16_up4 + f3
         add_5_4_3 = self.MFI2(cat_5_4_3_r_192_16_up4, cat_5_4_3_t_196_16_up4, f3)
         f2 = add_5_4_3.mul(edge) + edge
-        # f2 = self.boundary3(edge, add_5_4_3)
 
 
         cat_5_4_3_r_192_16_up2 = self.up2(cat_5_4_3_r_192_16)
@@ -393,9 +384,7 @@ class Mirror_model(nn.Module):
         cat_5_4_3_2_t = torch.cat((cat_5_4_3_t_196_16_up2, x2_depth_en), dim=1)
         cat_5_4_3_2_t_40_16 = self.conv_40_16_1(cat_5_4_3_2_t)
         cat_5_4_3_2_t_40_16_up2 = self.up2(cat_5_4_3_2_t_40_16)
-        # add_5_4_3_2 = cat_5_4_3_2_r_40_16_up2 + cat_5_4_3_2_t_40_16_up2 + f2
         add_5_4_3_2 = self.MFI3(cat_5_4_3_2_r_40_16_up2, cat_5_4_3_2_t_40_16_up2, f2)
-        # f1 = add_5_4_3_2.mul(edge) + edge
         f1 = add_5_4_3_2
 
 
