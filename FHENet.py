@@ -57,46 +57,6 @@ class DSConv(nn.Module):
         return x
 
 
-# class Boundry(nn.Module):
-#     def __init__(self, in_channels):
-#         super(Boundry, self).__init__()
-#         self.relu = nn.ReLU()
-#         self.avg_max = nn.AdaptiveMaxPool2d(1)
-#         self.sig = nn.Sigmoid()
-#         self.conv3_d1 = nn.Sequential(
-#             nn.Conv2d(2 * in_channels, in_channels, kernel_size=(3, 1), padding=(1, 0), stride=1, dilation=(1, 1)
-#                       ),
-#             nn.Conv2d(in_channels, in_channels, kernel_size=(1, 3), padding=(0, 1), stride=1, dilation=(1, 1)
-#                       ),
-#             nn.BatchNorm2d(in_channels),
-#             nn.ReLU())
-#
-#         self.conv3_d2 = nn.Sequential(
-#             nn.Conv2d(3 * in_channels, in_channels, kernel_size=(3, 1), padding=(1, 0), stride=1, dilation=(1, 1)
-#                       ),
-#             nn.Conv2d(in_channels, in_channels, kernel_size=(1, 3), padding=(0, 1), stride=1, dilation=(1, 1)
-#                       ),
-#             nn.BatchNorm2d(in_channels),
-#             nn.ReLU())
-#
-#
-#     def forward(self, rgb, d):
-#         mul1 = rgb.mul(d)
-#         add = torch.cat([rgb, mul1, d], dim=1)
-#         add = self.conv3_d2(add)
-#         add_max, _ = torch.max(add, dim=1, keepdim=True)
-#         mul_add_max = add_max.mul(add)
-#
-#         add_avg_max = self.avg_max(add)
-#         add_avg_max_sig = self.sig(add_avg_max)
-#         mul_add_avg_max_sig = add_avg_max_sig.mul(add)
-#
-#         cat = torch.cat((mul_add_max, mul_add_avg_max_sig), dim=1)
-#         cat_conv = self.conv3_d1(cat)
-#         out = cat_conv + add
-#
-#         return  out
-
 
 class Boundry(nn.Module):
     def __init__(self, in_channels):
