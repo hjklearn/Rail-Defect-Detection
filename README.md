@@ -55,4 +55,4 @@ If you use CEKD in your academic work, please cite:
 
 # Pretaining Model
 
-Model weights loading: 
+Model weights loading: [Baidu](https://pan.baidu.com/s/1X3iEf7yK65yraI4NYSWMTQ) 提取码：01xe
