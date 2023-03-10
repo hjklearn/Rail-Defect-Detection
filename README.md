@@ -53,3 +53,6 @@ If you use CEKD in your academic work, please cite:
       publisher={IEEE}
     }
 
+# Pretaining Model
+
+Model weights loading: 
