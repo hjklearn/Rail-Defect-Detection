@@ -43,7 +43,7 @@ Table II Test results of the performance of the relevant methods. The best resul
 
 # Citation
 
-If you use CEKD in your academic work, please cite:
+If you use FHENet in your academic work, please cite:
 
     @article{zhou2023fhenet,
       title={FHENet: Lightweight Feature Hierarchical Exploration Network for Real-Time Rail Surface Defect Inspection in RGB-D Images},
