@@ -1,15 +1,16 @@
 # FHENet-PyTorch
 
-### The official pytorch implementation of FHENet:**Lightweight Feature Hierarchical Exploration Network for Real-Time Rail SurfaceDefect Inspection in RGB-D Images**.[PDF](https://ieeexplore.ieee.org/document/10019291).
-
-### The model structure is as follows：
+### The official pytorch implementation of FHENet:**Lightweight Feature Hierarchical Exploration Network for Real-Time Rail SurfaceDefect Inspection in RGB-D Images**.[[PDF](https://ieeexplore.ieee.org/document/10019291)].The model structure is as follows：
 
 <img decodeing="async" src="https://sky-image-1302500563.cos.ap-nanjing.myqcloud.com/image/22.png" width="100%">
 
 
+ 
+ 
 # Feature Maps 
-
 ### Baidu [RGB-D](https://pan.baidu.com/s/1xcK303N9WScaOHdVFqsHIg?pwd=na4e)  提取码: na4e 
+
+
 
 
 # Comparison of results table
@@ -41,6 +42,8 @@
 | **Rec↑** | 25.46% | 63.88% | 31.02% | 36.14% | 74.18% | **91.67%** | 82.83% | 78.61% | 87.76% | 87.61% | 86.60% | 87.31% | 88.09% | 86.59%     |   88.34%   |
 | **F1↑**  | 33.36% | 55.65% | 42.12% | 44.98% | 74.84% |   78.98%   | 78.20% | 80.55% | 83.31% | 85.14% | 84.12% | 85.63% | 86.23% | 86.07%     | **87.01%** |
 | **IOU↑** | 19.23% | 40.63% | 22.41% | 27.86% | 62.96% |   68.91%   | 70.39% | 70.57% | 74.82% | 76.65% | 75.39% | 77.27% | 77.77% | 77.87%     | **78.93%** |
+
+
 
 
 # Citation
