@@ -51,10 +51,10 @@ Table II Test results of the performance of the relevant methods. The best resul
 If you use CEKD in your academic work, please cite:
 
     @article{zhou2023fhenet,
-  title={FHENet: Lightweight Feature Hierarchical Exploration Network for Real-Time Rail Surface Defect Inspection in RGB-D Images},
-  author={Zhou, Wujie and Hong, Jiankang},
-  journal={IEEE Transactions on Instrumentation and Measurement},
-  year={2023},
-  publisher={IEEE}
-}
+      title={FHENet: Lightweight Feature Hierarchical Exploration Network for Real-Time Rail Surface Defect Inspection in RGB-D Images},
+      author={Zhou, Wujie and Hong, Jiankang},
+      journal={IEEE Transactions on Instrumentation and Measurement},
+      year={2023},
+      publisher={IEEE}
+    }
 
