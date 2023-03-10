@@ -13,6 +13,7 @@
 
 
 # Comparison of results table
+### Table I Evaluation metrics obtained from compared methods. The best results are shown in bold.
 
 | Models |    Sm↑    |  maxEm↑   |  maxFm↑   |   MAE↓    |                         
 | :----: | :-------: | :-------: | :-------: | :-------: |
@@ -31,6 +32,8 @@
 |  DAC   |   0.824   |   0.911   |   0.875   |   0.071   |
 |  CLA   |   0.835   |   0.920   |   0.878   |   0.069   |
 |  Ours  | **0.836** | **0.926** | **0.881** | **0.064** |
+
+### Table II Test results of the performance of the relevant methods. The best results are shown in bold.
 
 |  Models  |  DCMC  |  ACSD  |   DF   |  CDCP  |  DMRA  |    HAI     |  S2MA  | CONET  |  EMI   |  CSEP  |  EDR   |  BBS   |  DAC   | CLA        |    Ours    |
 | :------: | :----: | :----: | :----: | :----: | :----: | :--------: | :----: | ------ | :----: | :----: | :----: | :----: | :----: | ---------- | :--------: |
