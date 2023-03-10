@@ -1,0 +1,100 @@
+absl-py==1.0.0
+addict==2.4.0
+apex==0.1
+astor==0.8.1
+astunparse==1.6.3
+attr==0.3.2
+backcall==0.2.0
+cached-property==1.5.2
+cachetools==4.2.4
+certifi==2022.9.24
+charset-normalizer==2.0.12
+clang==5.0
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cycler==0.11.0
+dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
+decorator==5.1.1
+einops==0.4.1
+flatbuffers==1.12
+gast==0.4.0
+google-auth==2.6.5
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+grpcio==1.48.2
+h5py==3.1.0
+idna==3.4
+imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+importlib-metadata==4.8.3
+ipython==7.16.3
+ipython-genutils==0.2.0
+jedi==0.17.2
+joblib @ file:///tmp/build/80754af9/joblib_1613502643832/work
+keras==2.6.0
+Keras-Preprocessing==1.1.2
+kiwisolver==1.3.1
+Markdown==3.3.7
+matplotlib==3.3.4
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+mmcv-full==1.2.6
+ninja==1.11.1
+nose @ file:///opt/conda/conda-bld/nose_1642704612149/work
+numpy==1.19.5
+oauthlib==3.2.1
+olefile==0.46
+opencv-python==4.5.5.62
+opt-einsum==3.3.0
+packaging==21.3
+paddle-bfloat==0.1.7
+paddlepaddle==2.4.0
+pandas==1.1.5
+parso==0.7.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow @ file:///tmp/build/80754af9/pillow_1625649052827/work
+portalocker @ file:///tmp/build/80754af9/portalocker_1617135543485/work
+progress @ file:///tmp/build/80754af9/progress_1614269494850/work
+prompt-toolkit==3.0.30
+protobuf==3.19.6
+ptflops==0.6.7
+ptyprocess==0.7.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pydensecrf==1.0rc3
+Pygments==2.12.0
+pyparsing==3.0.6
+python-dateutil==2.8.2
+pytorch-ssim==0.1
+pytz==2022.1
+PyYAML==6.0
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1621365798935/work
+scipy @ file:///tmp/build/80754af9/scipy_1597686625380/work
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+tb-nightly==2.9.0a20220420
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.4.1
+tensorflow==2.6.2
+tensorflow-estimator==2.6.0
+termcolor==1.1.0
+tf-slim==1.1.0
+thop==0.0.31.post2005241907
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+timm==0.5.4
+torch==1.7.1
+torchaudio==0.7.0a0+a853dff
+torchvision==0.8.2
+tqdm @ file:///opt/conda/conda-bld/tqdm_1647339053476/work
+traitlets==4.3.3
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+urllib3==1.26.12
+wcwidth==0.2.5
+Werkzeug==2.0.3
+wrapt==1.12.1
+yapf==0.32.0
+zipp==3.6.0
