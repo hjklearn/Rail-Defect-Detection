@@ -8,13 +8,13 @@
  
  
 # Feature Maps 
-### Baidu [RGB-D](https://pan.baidu.com/s/1xcK303N9WScaOHdVFqsHIg?pwd=na4e)  提取码: na4e 
+Baidu [RGB-D](https://pan.baidu.com/s/1xcK303N9WScaOHdVFqsHIg?pwd=na4e)  提取码: na4e 
 
 
 
 
 # Comparison of results table
-### Table I Evaluation metrics obtained from compared methods. The best results are shown in bold.
+Table I Evaluation metrics obtained from compared methods. The best results are shown in bold.
 
 | Models |    Sm↑    |  maxEm↑   |  maxFm↑   |   MAE↓    |                         
 | :----: | :-------: | :-------: | :-------: | :-------: |
@@ -34,7 +34,7 @@
 |  CLA   |   0.835   |   0.920   |   0.878   |   0.069   |
 |  Ours  | **0.836** | **0.926** | **0.881** | **0.064** |
 
-### Table II Test results of the performance of the relevant methods. The best results are shown in bold.
+Table II Test results of the performance of the relevant methods. The best results are shown in bold.
 
 |  Models  |  DCMC  |  ACSD  |   DF   |  CDCP  |  DMRA  |    HAI     |  S2MA  | CONET  |  EMI   |  CSEP  |  EDR   |  BBS   |  DAC   | CLA        |    Ours    |
 | :------: | :----: | :----: | :----: | :----: | :----: | :--------: | :----: | ------ | :----: | :----: | :----: | :----: | :----: | ---------- | :--------: |
@@ -48,5 +48,5 @@
 
 # Citation
 
-### If you use CEKD in your academic work, please cite:
+If you use CEKD in your academic work, please cite:
 
