@@ -1,7 +1,7 @@
 # FHENet-PyTorch
 The official pytorch implementation of FHENet:**Lightweight Feature Hierarchical Exploration Network for Real-Time Rail SurfaceDefect Inspection in RGB-D Images**.[PDF](https://ieeexplore.ieee.org/document/10019291).
 The model structure is as follows：
-<img decodeing="async" src="(https://user-images.githubusercontent.com/116411520/224204508-be95a98c-af7d-433d-8eda-75eb86cdb0f0.png)" width="100%">
+<img decodeing="async" src="https://user-images.githubusercontent.com/116411520/224204508-be95a98c-af7d-433d-8eda-75eb86cdb0f0.png" width="100%">
 
 
 # Feature Maps 
