@@ -4,9 +4,10 @@
 
 <img decodeing="async" src="https://sky-image-1302500563.cos.ap-nanjing.myqcloud.com/image/22.png" width="100%">
 
+# Requirements
+Python 3.6, Pytorch 1.7.1, Cuda 10.2, TensorboardX 2.1, opencv-python <br>
+IF anthying goes wrong with environment, please check requirements.txt for details.
 
- 
- 
 # Feature Maps 
 Baidu [RGB-D](https://pan.baidu.com/s/1xcK303N9WScaOHdVFqsHIg?pwd=na4e)  提取码: na4e 
 
