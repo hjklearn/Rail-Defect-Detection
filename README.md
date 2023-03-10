@@ -5,8 +5,7 @@
 <img decodeing="async" src="https://sky-image-1302500563.cos.ap-nanjing.myqcloud.com/image/22.png" width="100%">
 
 # Requirements
-Python 3.6, Pytorch 1.7.1, Cuda 10.2, TensorboardX 2.1, opencv-python <br>
-If anthying goes wrong with environment, please check requirements.txt for details.
+Python 3.6, Pytorch 1.7.1, Cuda 10.2, TensorboardX 2.1, opencv-python <br>. If anthying goes wrong with environment, please check requirements.txt for details.
 
 # Feature Maps 
 Baidu [RGB-D](https://pan.baidu.com/s/1xcK303N9WScaOHdVFqsHIg?pwd=na4e)  提取码: na4e 
@@ -41,7 +40,7 @@ Table II Test results of the performance of the relevant methods. The best resul
 | **F1↑**  | 33.36% | 55.65% | 42.12% | 44.98% | 74.84% |   78.98%   | 78.20% | 80.55% | 83.31% | 85.14% | 84.12% | 85.63% | 86.23% | 86.07%     | **87.01%** |
 | **IOU↑** | 19.23% | 40.63% | 22.41% | 27.86% | 62.96% |   68.91%   | 70.39% | 70.57% | 74.82% | 76.65% | 75.39% | 77.27% | 77.77% | 77.87%     | **78.93%** |
 
-#### Citation
+# Citation
 
 If you use CEKD in your academic work, please cite:
 
